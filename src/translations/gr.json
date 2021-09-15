@@ -1,8 +1,8 @@
 {
-  "ActivityFeed.deletedListing": "deleted listing",
-  "ActivityFeed.deletedReviewContent": "This review is deleted.",
-  "ActivityFeed.leaveAReview": "Leave a review for { displayName }.",
-  "ActivityFeed.leaveAReviewSecond": "Leave a review for { displayName } to see their review.",
+  "ActivityFeed.deletedListing": "Διεγραμμένη καταχώρηση",
+  "ActivityFeed.deletedReviewContent": "Η κριτική έχει δραγραφεί.",
+  "ActivityFeed.leaveAReview": "Γράψε μία κριτική για { displayName }.",
+  "ActivityFeed.leaveAReviewSecond": "Γράψε μία κριτική { displayName } για να δείς τη δική τους κριτική.",
   "ActivityFeed.ownTransitionAccept": "You accepted the booking request.",
   "ActivityFeed.ownTransitionDecline": "You declined the booking request.",
   "ActivityFeed.ownTransitionExpire": "Booking request expired. You did not reply on time.",
