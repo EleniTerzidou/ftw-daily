@@ -28,9 +28,10 @@ const CustomCategorySelectFieldMaybe = props => {
       <option disabled value="">
         {categoryPlaceholder}
       </option>
-      <option value="">Pick something...</option>
-            <option value="first">First option</option>
-            <option value="second">Second option</option>
+      <option value=""></option>
+            <option value="first">Ρούχα</option>
+            <option value="second">Παπούτσια</option>
+  <option value="third">Αξεσουάρ</option>
     </FieldSelect>
   ) : null;
 };
