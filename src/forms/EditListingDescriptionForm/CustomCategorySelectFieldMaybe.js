@@ -28,11 +28,9 @@ const CustomCategorySelectFieldMaybe = props => {
       <option disabled value="">
         {categoryPlaceholder}
       </option>
-      {categories.map(c => (
-        <option key={c.key} value={c.key}>
-          {c.label}
-        </option>
-      ))}
+      <option value="">Pick something...</option>
+            <option value="first">First option</option>
+            <option value="second">Second option</option>
     </FieldSelect>
   ) : null;
 };
