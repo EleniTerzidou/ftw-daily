@@ -149,3 +149,4 @@ export const ToSAccepted = {
   },
   group: 'inputs',
 };
+export default FieldCheckboxGroup;
