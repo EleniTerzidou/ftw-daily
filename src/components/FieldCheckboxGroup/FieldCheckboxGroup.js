@@ -20,8 +20,9 @@ const FieldCheckboxRenderer = props => {
 
   const classes = classNames(rootClassName || css.root, className);
   const listClasses = twoColumns ? classNames(css.list, css.twoColumns) : css.list;
-const options=[{"test1"},
-               {"test2"}];
+const options= [{key:"1",label:"test"},
+                {key:"2",label:"testtt"}
+                ];
   
   return (
     <fieldset className={classes}>
