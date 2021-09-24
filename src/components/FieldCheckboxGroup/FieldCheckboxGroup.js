@@ -25,9 +25,7 @@ const FieldCheckboxRenderer = props => {
   return (
     <fieldset className={classes}>
       {label ? <legend>{label}</legend> : null}
-const options= [{key:"1",label:"test"},
-                {key:"2",label:"testtt"},
-                ];
+
 
       <ul className={listClasses}>
         
