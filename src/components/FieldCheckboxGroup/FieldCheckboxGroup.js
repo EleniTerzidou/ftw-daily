@@ -26,11 +26,12 @@ const FieldCheckboxRenderer = props => {
     <fieldset className={classes}>
       {label ? <legend>{label}</legend> : null}
       <ul className={listClasses}>
-        const options=[test1,test2]
+        
         {options.map((option, index) => {
-          const fieldId = `${id}.${option.key}`;
+          const fieldId = [test1,test2] ;
           return (
             <li key={fieldId} className={css.item}>
+         
               <FieldCheckbox
                 id={fieldId}
                 name={fields.name}
